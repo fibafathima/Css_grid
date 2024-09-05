@@ -1,0 +1,40 @@
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 20px;
+    background-color:#F7F7F9;
+    width: 99vw;
+    height: 70vh;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    }
+.box{
+    border: 2px solid white;
+    border-radius:5%;
+    padding-left: 10%;
+    width: 400px;
+    box-shadow: 20px -31px 61px 0px #F3EEE9;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+    padding: 0px 10px 0px 10px;
+    font-family: "Poppins", sans-serif;
+
+}
+.box p{
+    text-align: center;
+    font-size: medium;
+    color: #838484;
+    font-family: "Poppins", sans-serif;
+
+}
+.price{
+    color: rgb(181,136,53);
+}
+
